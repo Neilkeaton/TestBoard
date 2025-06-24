@@ -1,0 +1,11 @@
+if SHIELD_TESTBOARD
+
+# Name must be less than 16 characters long!
+    config BOARD
+        default "TestBoard"
+
+    config ZMK_KEYBOARD_NAME
+        default "TestBoard"
+
+
+    endif
